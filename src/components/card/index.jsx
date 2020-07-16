@@ -5,19 +5,9 @@ import "./Card.scss";
 // then you will now override them based off of your needs;
 
 const Card = (props) => {
-  // const something = () => {
-  //   let className = "";
-  //   className += { ...props.value };
-  //   return className;
-  // };
-
-  // for (let i = 0; i < props.length; i++) {
-  //   console.log(props[i]);
-  // }
-
   return (
     <div>
-      {/* <p>This is the card container</p>
+      <p>This is the card container</p>
       <p>32000</p>
       <p>23-06-2020</p>
       <p>23-06-2020</p>
@@ -34,9 +24,9 @@ const Card = (props) => {
           <ellipse cx="2" cy="10.6667" rx="2" ry="2" fill="#C4C4C4" />
           <ellipse cx="2" cy="19.3333" rx="2" ry="2" fill="#C4C4C4" />
         </svg>
-      </p> */}
+      </p>
 
-      {props.children}
+      {/* {props.children} */}
     </div>
   );
 };

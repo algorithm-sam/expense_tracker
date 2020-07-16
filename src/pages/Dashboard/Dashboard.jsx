@@ -1,7 +1,7 @@
 import React from "react";
 import { DashboardLayout } from "../../layouts/Dashboard";
 import "./Dashboard.scss";
-import { Card, NoResult } from "../../components";
+import { Card } from "../../components";
 
 const Dashboard = () => {
   return (
@@ -13,7 +13,6 @@ const Dashboard = () => {
         </div>
 
         <div className="main-content-area">
-          {/* <Card />
           <Card />
           <Card />
           <Card />
@@ -22,9 +21,10 @@ const Dashboard = () => {
           <Card />
           <Card />
           <Card />
-          <Card /> */}
+          <Card />
+          <Card />
 
-          <NoResult />
+          {/* <NoResult /> */}
         </div>
       </div>
     </DashboardLayout>
