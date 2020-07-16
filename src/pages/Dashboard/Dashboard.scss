@@ -1,0 +1,50 @@
+@import "../../theme/variables";
+
+.content {
+    padding: 30px;
+    width: min-content;
+
+    .page-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: darken($gray, 30%);
+
+        h1,
+        p {
+            font-weight: 600;
+        }
+
+        p {
+            font-size: .8rem;
+        }
+
+
+    }
+
+
+    .main-content-area {
+
+        width: inherit;
+        margin: auto;
+
+    }
+}
+
+@media only screen and (max-device-width: 480px) {
+
+    .content {
+        padding: 10px;
+    }
+
+    .page-header {
+
+        h1 {
+            font-size: 1rem;
+        }
+
+        p {
+            display: none;
+        }
+    }
+}

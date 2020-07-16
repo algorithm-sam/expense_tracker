@@ -1,0 +1,35 @@
+@import "../../theme/variables";
+
+.content {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.card-container {
+    min-height: 100px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px 40px;
+    font-size: $md;
+    margin-bottom: 25px;
+    overflow-x: auto;
+
+    &.flex {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &.justify-center {
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-device-width: 480px) {
+    .content {
+        width: 100%;
+    }
+
+    .card-container {
+        padding: 10px;
+    }
+}

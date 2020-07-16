@@ -1,0 +1,15 @@
+.content-wrapper {
+    display: grid;
+    grid-template-columns: minmax(50px, auto) 1fr;
+    grid-template-rows: minmax(calc(100vh - 70px), auto);
+    grid-template-areas: "sidenav maincontent";
+    height: calc(100vh - 50px);
+}
+
+
+.main-content {
+    grid-area: maincontent;
+    // background: purple;
+    // overflow-wrap: break-word;
+    overflow-y: auto;
+}
