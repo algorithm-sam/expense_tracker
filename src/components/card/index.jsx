@@ -16,7 +16,7 @@ const Card = (props) => {
   // }
 
   return (
-    <div className={something()}>
+    <div>
       {/* <p>This is the card container</p>
       <p>32000</p>
       <p>23-06-2020</p>
